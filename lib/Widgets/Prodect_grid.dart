@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:shopping_app/Widgets/product_item.dart';
 
 import '../Provider/Products.dart';
-import '../../Widgets/product_item.dart';
+import 'product_item.dart';
 
 class ProductGrid extends StatefulWidget {
   final bool onlyFav;

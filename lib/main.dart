@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'Provider/Auth.dart';
 
-import '../Screens/splash_screen.dart';
-import '../Screens/auth_screen.dart';
-import '../Screens/Edit_product_Screen.dart';
-import '../Screens/CartScreen.dart';
-import '../Screens/OrdersScreen.dart';
-import '../Screens/product_overview_Screen.dart';
-import '../Screens/UserProductsScreen.dart';
 
-import '../Provider/Products.dart';
-import '../Provider/Cart.dart';
-import '../Provider/Orders.dart';
-import '../Provider/Auth.dart';
+import 'Provider/Cart.dart';
+import 'Provider/Orders.dart';
+import 'Provider/Products.dart';
+import 'Screens/CartScreen.dart';
+import 'Screens/Edit_product_Screen.dart';
+import 'Screens/OrdersScreen.dart';
+import 'Screens/UserProductsScreen.dart';
+import 'Screens/auth_screen.dart';
+import 'Screens/product_overview_Screen.dart';
+import 'Screens/splash_screen.dart';
 
 void main() {
   runApp(MyApp());
